@@ -1,0 +1,147 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+ul{
+  background: black;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+li:hover{
+  background: #ef8354;
+  
+}
+
+li a{
+  text-decoration:none;
+  color: skyblue;
+  padding: 20px;
+}
+.wave{
+  position: absolute;
+  bottom:  0;
+  width: 100%;
+  
+  }
+  header{
+      width: 100%;
+      height: 600px;
+      background: hsla(240, 45%, 60%, 0.699);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(19, 85%, 68%, 0.637), hsla(202, 100%, 79%, 0.781)),url("/img3/FATE\ STAY\ NIG.jpg");/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, hsla(258, 100%, 75%, 0.726), #a2d3a09c),url("/img3/FATE\ STAY\ NIG.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 100%;
+    background-attachment:fixed;
+    position: relative;
+    }
+  
+    /* About us */
+.contenedor-sobre-nosotros{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.contenidos-textos h3{
+  margin-bottom: 15px;
+}
+.contenidos-textos h3 span{
+  background: purple;
+  color: aliceblue;
+  border-radius: 50px;
+  display: inline-block;
+  text-align: center;
+  width: 30px;
+  height: 25px;
+  padding: 2px;
+  box-shadow: 0 0 6px 0 rgba(0, 0,0, .5);
+  margin-right: 5px;
+} 
+.contenidos-textos p{
+  padding: 0px 0px 30px 15px ;
+  font-weight: 300;
+  text-align: justify;
+}
+
+
+body{
+ font-family:Arial;
+ 
+}
+
+.contenedor{
+ padding: 60px 0;
+ width: 90%;
+max-width: 1000px;
+margin: auto;
+overflow: hidden;
+}
+.titulo{
+ color: rgba(247, 46, 247, 0.699);
+ font-size: 60px;
+ text-align: center;
+ margin-bottom: 60px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+.contenedor12{
+  text-align: right;
+}
+
+header .textos-header{
+  display: flex;
+  height: 430px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+}
+.textos-header h1{
+  font-size: 70px;
+  color:darkred;
+} 
+.textos-header h2{
+  font-size: 30px;
+  font-weight: 300;
+  color:black ;
+
+}
+nav{
+  text-align: right;
+  padding: 30px 50px 0 0;
+}
+
+nav > a{
+  color: black;
+  font-weight: 300;
+  text-decoration:none;
+  margin-right: 30px;
+}
+nav > a:hover{
+  text-decoration:underline;
+}
+a:hover{
+   background: rgb(114, 234, 250);
+   text-decoration: crimson;
+   
+}
+
+.TITULOS{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: royalblue;
+}
+
+
+.Parrafos{
+  font-family: 'Roboto', sans-serif;
+  color:black;
+}
+  h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkred;
+  }
+  

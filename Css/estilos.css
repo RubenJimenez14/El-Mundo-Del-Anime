@@ -1,0 +1,189 @@
+*
+
+
+
+{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+}
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  
+}
+
+.contenedor{
+  padding: 60px 0;
+  width: 90%;
+max-width: 1000px;
+margin: auto;
+overflow: hidden;
+}
+.titulo{
+  color: rgba(5, 8, 51, 0.699);
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+
+header{
+  width: 100%;
+  height: 600px;
+  background: hsla(240, 45%, 60%, 0.699);  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, hsla(308, 33%, 61%, 0.74), hsla(202, 75%, 65%, 0.781)),url(../img/Obrazki\ Z\ Anime.jpeg);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, hsla(113, 45%, 74%, 0.726), hsla(325, 68%, 71%, 0.439)),url(../img/Obrazki\ Z\ Anime.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-size: 350px;
+background-attachment:fixed;
+position: relative;
+}
+nav{
+  text-align: right;
+  padding: 30px 50px 0 0;
+}
+nav > a{
+  color: black;
+  font-weight: 300;
+  text-decoration:none;
+  margin-right: 30px;
+}
+nav > a:hover{
+  text-decoration:underline;
+}
+header .textos-header{
+  display: flex;
+  height: 430px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+}
+.textos-header h1{
+  font-size: 70px;
+  color:darkred;
+} 
+.textos-header h2{
+  font-size: 30px;
+  font-weight: 300;
+  color:black ;
+
+}
+
+.wave{
+  position: absolute;
+  bottom:  0;
+  width: 100%;
+}
+
+/* About us */
+.contenedor-sobre-nosotros{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.imagen-about-us{
+  width: 30%;
+
+}
+
+.sobre-nosotros .contenido-textos{
+  width: 13%;
+
+}
+
+.contenidos-textos h3{
+  margin-bottom: 15px;
+}
+.contenidos-textos h3 span{
+  background: purple;
+  color: aliceblue;
+  border-radius: 50px;
+  display: inline-block;
+  text-align: center;
+  width: 30px;
+  height: 25px;
+  padding: 2px;
+  box-shadow: 0 0 6px 0 rgba(0, 0,0, .5);
+  margin-right: 5px;
+} 
+.contenidos-textos p{
+  padding: 0px 0px 30px 15px ;
+  font-weight: 300;
+  text-align: justify;
+
+}
+/* GALERY */
+.CruzAzuly la grandeza{
+  background: aliceblue;
+
+}
+.galeria-port{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+.imagen-port{
+  width: 24%;
+  margin-bottom: 10px;
+  height: 200px;
+  overflow:hidden;
+  position: relative;
+  cursor: pointer;
+
+
+}
+.imagen-port > img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  
+}
+.hover-galeria{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  transform: scale(0);
+  background: hsl(273, 91%,27%,0.7);
+  transition: transform .5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+/* vida */
+}
+.cards{
+  display: flex;
+  justify-content: space-evenly;
+}
+table{
+  width: 100%;
+  background-color: greenyellow;
+}
+ul{
+  background:black;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+li:hover{
+  background: #ef8354;
+  
+}
+
+li a{
+  text-decoration:none;
+  color:skyblue;
+  padding: 20px;
+}
+.WAVE{
+  position: absolute;
+  bottom:  0;
+  width: 100%;
+  
+  }
